@@ -1,0 +1,191 @@
+body {
+	top:6%;
+	background-image:url("pictures/popart.jpg");
+	background-size: 140%;
+	background-repeat:no-repeat;
+	color:#00FF00;
+	font-family:"Arial";
+
+	}
+#buttons a{
+	position:relative; 
+	left:50%;
+	top:10%;
+	border-top: 1px solid #9ff797;
+	background: #215905;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5cab55), to(#215905));
+	background: -webkit-linear-gradient(top, #5cab55, #215905);
+	background: -moz-linear-gradient(top, #5cab55, #215905);
+	background: -ms-linear-gradient(top, #5cab55, #215905);
+	background: -o-linear-gradient(top, #5cab55, #215905);
+	padding: 8.5px 17px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #ffffff;
+	font-size: 17px;
+	font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+	text-decoration: none;
+	vertical-align: middle;
+   }
+#buttons a:hover {
+	border-top-color: #124008;
+	background: #124008;
+	color: #939694;
+   }
+#buttons a:active {
+	border-top-color: #ab781f;
+	background: #ab781f;
+   }
+
+
+
+container{
+	word-wrap:break-word;
+	max-width:80%;
+	height:100%
+	}
+			
+img{ 
+	z-index:2;
+	position:relative;
+	color:gray; 
+	top:10%;
+	left:7%;  
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 9.15);
+	}	
+		
+h1{
+	font-family:  Papyrus, fantasy;
+	position:relative;
+	right:46%;
+	top:-890px;
+	border-bottom:2px solid #FFFF00;
+	transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+
+	margin-top: 80px;
+	margin-bottom:80px;
+	}
+
+.tag{
+	font-family:  Papyrus, fantasy;
+	color:#FFCC33;
+	font-size:400%;
+	position:absolute; 
+	top:20%; 
+	left:60%;
+	transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	}
+
+.left{
+	color:gray;
+	position:relative;
+	left:5.2%;
+	top:-380px;
+	width:9%;
+	text-align:right;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color:#FFFFFF;
+	padding-left:15%;
+	}
+	
+.right{
+	position:relative; 
+	left:10%;
+	top:-380px;
+	padding-left:1%;
+	text-align:justify;
+	max-width:60%;
+	font-weight:bold;
+
+	}
+.right.contact{
+	top:-400px;
+	left:30%;
+
+	}
+
+
+.duration{ color:blue;}
+
+
+table {
+	position:relative;
+	right:8%;
+	border-collapse: collapse;
+	border: none;
+	font: normal 15px helvetica, verdana, arial, sans-serif;
+	background-image: url(http://www.acuity.com.br/extern/icant.co.uk/bg_acuity.gif); 
+	background-repeat: repeat;
+	border-spacing: 1px;
+  }
+  
+ .position{
+	position:relative; 
+	top:-100px;
+	}
+ 
+.fancy{
+	position:relative;
+	top:-100px;
+	}
+
+.place{
+	font-size:110%;
+	color:#FFCC33;
+	}
+	
+	
+@media screen and (max-width:1050px) {
+  .container{font-size: 80%;}
+  img{
+	height: 10%;
+    width: 10%;
+	}
+	#buttons a{font-size:14px;}
+	body{background-size: 300%;}
+}
+
+@media screen and (max-width:768px) {
+
+  .container{font-size: 60%;}
+  img{
+	height: 5%;
+    width: 5%;
+	}
+	#buttons a{position:relative; left:80%;font-size:11px;}
+	body{background-size: 180%;}
+}
+
+@media screen and (max-width:680pxpx) {
+  .container{font-size: 40%;}
+   img{
+	height: 3%;
+    width: 3%;
+	}
+	#buttons a{position:relative; left:70%;font-size:9px;}
+  
+}
+
+@media screen and (max-width:500px) {
+  .container{font-size: 30%;}
+   img{
+	height: 1%;
+    width: 1%;
+	}
+	#buttons a{position:relative; left:70%;font-size:7px;}
+	body{background-size: 500%;}
+ 
+}

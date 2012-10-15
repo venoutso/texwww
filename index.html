@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+ 
+  <title>CV - HTML</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="europass.css"></link>
+
+  <script type="text/javascript">
+      function changeCSS(cssFile, cssLinkIndex) {
+ 
+        var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+ 
+        var newlink = document.createElement("link")
+        newlink.setAttribute("rel", "stylesheet");
+        newlink.setAttribute("type", "text/css");
+        newlink.setAttribute("href", cssFile);
+ 
+        document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+    </script>
+	
+</head>
+<body>
+<div id="buttons">
+<a href="#" onclick="changeCSS('europass.css', 0);">Europass</a>
+<a href="#" onclick="changeCSS('formal.css', 0);">Strict</a>
+<a href="#" onclick="changeCSS('fancy.css', 0);">Funky</a>
+</div>
+
+
+	<img  src="pictures/me.jpg" alt="Vaios Noutsos" width="160" height="195">
+		<div class="container">
+				<h2 class="tag">Curriculum Vitae</h1>
+				
+				<section>
+					
+					<h1>Personal Information</h1>
+					<div class="left "><b>First name(s)</b></div>
+					<div class="right contact ">Vaios-Florio Lorenzo</div>
+					<div class="left "><b>Surname(s)</b></div>
+					<div class="right contact">Noutsos</div>
+					<div class="left "><b>Address</b></div>
+					<div class="right contact">Aristofanous 6, 65403 Kavala (Greece)</div>
+					<div class="left" ><b>Telephone(s)</b></div>
+					<div class="right contact">+30 6945012555</div>
+					<div class="left"><b>E-mail(s)</b></div>
+					<div class="right contact">venoutso@inf.uth.gr</div>
+					<div class="left"><b>Nationality</b></div>
+					<div class="right contact">Hellenic, Italian</div>
+					<div class="left"><b>Date of Birtth</b></div>
+					<div class="right contact">1 February 1989</div>
+					<div class="left"><b>Gender</b></div>
+					<div class="right contact">Male</div>
+				
+				</section>
+				
+				<section>
+				
+					<h1>Working Experience</h1>
+					<div class="left duration"><b>01/07/12- 30/08/12</b></div>
+					<div class="right">
+						<div class="place"><b>Nortech- Odisseas Triantafillos &Co G.P - Aminta 12, 65403 Kavala (Greece)</b><br/></div>
+								As an apprentice I acquired knowledge in: Banner Creation, Image procession with Adobe photoshop,
+								Introduction of information via the content management system Kentico CMS, Modules development 
+								for Kentico CMS in asp.net C# and MS SQL 2005.
+					
+					</div>
+				</section>
+				
+				<section>
+				
+					<h1>Education and training</h1>
+					<div class="left duration"><b>29/09/06 - Present</b></div>
+					<div class="right">
+						<div class="place"><b>University of Thessaly, Department of Computer and Communication Engineering, Volos (Greece)</b><br/></div>
+										  I am a student in the University of Thessaly at the faculty of Computer and Communication Engineering
+										  situated in Volos, Greece.Currently i am in the fifth and last year of my studies having succeed in 45  
+										  courses out of 54 and i have already finished my final thesis.
+					</div>
+					<div class="left duration"><b>05/09/11 - 13/07/12</b></div>
+					<div class="right">
+						<div class="place"><b>Universidad Politecnica de Madrid (UPM), Facultad de Infromatica – Boadilla del Monte (Spain)</b></div>
+										  Under the Erasmus programme i carried out my thesis and I attended and succeeded  int three courses:
+										  Concurrent Programming, Distributed Systems and Techniques of Scientific Computing.
+										  My final year project was made in cooperation with professor Panagiota Tsompanopoulouand professor
+										  Vicente Martin. The subject of my thesis is “Study of Short Read Genome Assemblers for Shared and
+										  Distributed Memory Systems”. I was working for this project in the Supercomputing and Visualization
+										  Center of Madrid (CeSViMa). 
+					</div>
+				
+				</section>
+									
+				
+				<section class="p_skills">
+					
+					
+					<h1>Personal skill and competences</h1>
+					<div class="position">
+					<div class="left skill">Computer skills and<br/>
+											competences
+					</div>
+					<div class="right">
+					<ul> 
+						<li>Programming languages: C, Java, HTML</li>
+						<li>MS Office tools: MS Word, MS Excell, MS Powerpoint</li>
+						<li>Graphic design application: Photoshop</li>
+					</ul>
+					</div>
+					
+					<div class="left skill ">Social skills and<br/>
+											competences</div>
+					<div class="right ">
+					<ul> 
+						<li>Ability to establish and maintain good working relations with people of different national and cultural background</li>
+						<li>Problem-solving attitude </li>
+						<li>Creativess</li>
+				
+					</ul>
+					</div>
+					
+					
+					</div>
+					<div class="fancy">
+					<div class="left skill "><b>Mother tongue(s)</b></div>
+					<div class="right">Greek, Italian</div>
+					<div class="left "><b>Other Language(s)</b></div>
+					<div class="right">
+					<table class="stat" border="1" style="border-spacing: 0px; table-layout:fixed;">
+						<tr>
+							<th>Languages</th>
+							<th colspan="4">Understanding</th>
+							<th colspan="4">Speaking</th>
+							<th colspan="2">Writing</th>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan="2">Listening</td>
+							<td colspan="2">Reading</td>
+							<td colspan="2">Spoken interaction</td>
+							<td colspan="2">Spoken production</td>
+						</tr>
+						<tr> 
+							<td>English</td>
+							<td>B2</td>
+							<td>Independent user</td>
+							<td>B2</td>
+							<td>Independent user</td>
+							<td>B2</td>
+							<td>Independent user</td>
+							<td>B2</td>
+							<td>Independent user</td>
+							<td>B2</td>
+							<td>Independent user</td>
+						</tr>
+						<tr> 
+							<td>Spanish</td>
+							<td>A2</td>
+							<td>Basic user</td>
+							<td>B2</td>
+							<td>Basic user</td>
+							<td>A2</td>
+							<td>Basic user</td>
+							<td>A2</td>
+							<td>Basic user</td>
+							<td>A2</td>
+							<td>Basic user</td>
+						</tr>
+					</table>
+				
+					</div>
+					
+				</section>
+				</div>
+				</div>
+		
+</body>
+
+
+</html>

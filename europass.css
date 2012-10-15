@@ -1,0 +1,111 @@
+.container{
+	overflow:hidden;
+	word-wrap:break-word;
+	padding-left:20px;
+	max-width:90%;
+	height:100%
+	}
+			
+			
+			
+#buttons a{
+	position:relative;
+	left:50%;
+	top:17px;
+	z-index:2;
+	border-top: 1px solid #9ff797;
+	background: #8b8f89;
+	background: -webkit-gradient(linear, left top, left bottom, from(#454a45), to(#8b8f89));
+	background: -webkit-linear-gradient(top, #454a45, #8b8f89);
+	background: -moz-linear-gradient(top, #454a45, #8b8f89);
+	background: -ms-linear-gradient(top, #454a45, #8b8f89);
+	background: -o-linear-gradient(top, #454a45, #8b8f89);
+	padding: 2px 4px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #ffffff;
+	font-size: 17px;
+	font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+	text-decoration: none;
+	vertical-align: middle;
+	}
+#buttons a:hover {
+   border-top-color: #3d403c;
+   background: #3d403c;
+   color: #08401b;
+   }
+#buttons a:active {
+   border-top-color: #ab781f;
+   background: #ab781f;
+   }				
+img{ 
+	z-index:2;
+	position:absolute;
+	color:gray;
+	left:60%; 
+	top:11%; 
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 9.15);
+	}
+
+h2{
+	width:17%;
+	border-right: 2px solid black;
+	text-align:right;
+	}
+
+h1{
+width:17%;
+border-right: 2px solid black;
+text-align:right;
+}
+
+
+.right{ 
+	border-left: 2px solid black;
+	position:relative; 
+	left:17%;
+	padding-left: 2%;
+	text-align:justify;
+	width:50%;
+	padding-left:0%;
+	}
+
+
+.left{
+	min-width: 12.5%;
+	height:100%;
+	position: absolute; 
+	left:4%;
+	text-align:right;
+	}
+ul{ padding-left:4%;}
+
+@media screen and (max-width:1050px) {
+  .container{font-size: 80%;}
+  
+}
+
+
+@media screen and (max-width:768px) {
+  .container{font-size: 60%;}
+  img{
+	height: 10%;
+    width: 10%;
+	}
+}
+
+@media screen and (max-width:680pxpx) {
+  .container{font-size: 50%;}
+  
+}
+
+@media screen and (max-width:500px) {
+  .container{font-size: 40%;}
+  #buttons a{font-size:70%;}
+}
+
